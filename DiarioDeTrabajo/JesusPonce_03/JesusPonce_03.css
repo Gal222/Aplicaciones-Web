@@ -1,0 +1,16 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+
+.verde {
+    color: rgb(21, 255, 0);
+}
+
+.azul {
+    color: rgb(0, 179, 255);
+}
+
+.rosa {
+    color: rgb(242, 76, 110);
+}

@@ -1,0 +1,39 @@
+body {
+    background-color: dimgray;
+    color: white;
+}
+body *{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(62, 62, 62);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgb(157, 159, 160);
+    color: black;
+    flex: 1;
+    padding: 1rem;
+}
+
+.verde {
+    color: rgb(21, 255, 0);
+}
+
+.azul {
+    color: rgb(0, 179, 255);
+}
+
+.rosa {
+    color: rgb(242, 76, 110);
+}

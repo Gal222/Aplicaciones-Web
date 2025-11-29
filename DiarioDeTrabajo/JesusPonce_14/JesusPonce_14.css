@@ -1,0 +1,43 @@
+/* TuNombre_14_ddmmaño.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #3b3b3b;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.tabla-pcs {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.tabla-pcs th {
+    background: linear-gradient(90deg, #0066cc, #0099ff);
+    padding: 12px;
+    font-size: 18px;
+    text-shadow: 1px 1px 4px black;
+}
+
+td {
+    border: gray 1px solid;
+    background: linear-gradient(90deg, #3f4245, #303132);
+    text-align: center;
+}

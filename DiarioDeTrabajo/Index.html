@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Índice Diario de trabajo</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" type="image/png" href="./Imagenes/faviconIndex.png">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const iframe = document.getElementById("visor");
+      const enlaces = document.querySelectorAll("div a");
+
+      enlaces.forEach(a => {
+        a.addEventListener("mouseover", () => {
+          iframe.src = a.getAttribute("href");
+        });
+      });
+    });
+  </script>
+  <header>
+    <div class="cabecera">
+      <h1>Diario de trabajo APLICACIONES WEB HTML Y CSS</h1>
+
+      <p>Jesus Ponce / APLICACIONES WEB 2025-2026</p>
+    </div>
+  </header>
+  <main>
+    <div>
+      <nav>
+        <a href="./JesusPonce_01/JesusPonce_01.html" target="_blank">1</a>
+        <a href="./JesusPonce_02/JesusPonce_02.html" target="_blank">2</a>
+        <a href="./JesusPonce_03/JesusPonce_03.html" target="_blank">3</a>
+        <a href="./JesusPonce_04/JesusPonce_04.html" target="_blank">4</a>
+        <a href="./JesusPonce_05/JesusPonce_05.html" target="_blank">5</a>
+        <a href="./JesusPonce_06/JesusPonce_06.html" target="_blank">6</a>
+        <a href="./JesusPonce_07/JesusPonce_07.html" target="_blank">7</a>
+        <a href="./JesusPonce_08/JesusPonce_08.html" target="_blank">8</a>
+        <a href="./JesusPonce_09/JesusPonce_09.html" target="_blank">9</a>
+        <a href="./JesusPonce_10/JesusPonce_10.html" target="_blank">10</a>
+        <a href="./JesusPonce_11/JesusPonce_11.html" target="_blank">11</a>
+        <a href="./JesusPonce_12/JesusPonce_12.html" target="_blank">12</a>
+        <a href="./JesusPonce_13/JesusPonce_13.html" target="_blank">13</a>
+        <a href="./JesusPonce_14/JesusPonce_14.html" target="_blank">14</a>
+        <a href="./JesusPonce_15/JesusPonce_15.html" target="_blank">15</a>
+        <a href="./JesusPonce_16/JesusPonce_16A.html" target="_blank">16 A</a>
+        <a href="./JesusPonce_16/JesusPonce_16B.html" target="_blank">16 B</a>
+
+
+      </nav>
+      <div class="visor">
+        <iframe id="visor" src="./JesusPonce_01/JesusPonce_01.html" frameborder="0"></iframe>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p>Diseño realizado por JesusPonce 2025</p>
+  </footer>
+</body>
+
+</html>

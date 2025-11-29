@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    background: linear-gradient(to left, #0f3460 0%, #16213e 50%, #1a3a52 100%);
+}
+
+h1 {
+    text-shadow: #000000 0.15rem 0.15rem 0.3rem;
+    font-size: 5rem;
+    color: #00d4ff;
+}
+
+nav {
+    text-shadow: #000000 0.15rem 0.15rem 0.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    background: linear-gradient(135deg, #0f3460 0%, #16213e 100%);
+    color: #00d4ff;
+    flex: 1;
+    padding: 1rem;
+    cursor: url("./espada.cur"), auto;
+    transition: background 0.3s ease;
+    border: 1px solid #00d4ff;
+}
+
+nav a:hover {
+    background: linear-gradient(135deg, #16213e 0%, #1a3a52 100%);
+    color: #fff;
+    box-shadow: 0 0 1rem #00d4ff;
+}
+
+aside {
+    background: linear-gradient(135deg, rgba(15, 52, 96, 0.9) 0%, rgba(26, 58, 82, 0.9) 100%);
+    cursor: url("./minecraft.cur"), auto;
+    flex: 1 1 50%;
+    padding: 5rem;
+    box-shadow: 2rem 2rem 3rem rgba(0, 0, 0, 0.5);
+    color: #00d4ff;
+}
+
+header,
+footer {
+    background: linear-gradient(to right, #0f3460 0%, #16213e 50%, #1a3a52 100%);
+    text-align: center;
+    color: #00d4ff;
+}
+
+article {
+    background-color: #0a1f2e;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.4);
+    color: #00d4ff;
+    border: 1px solid #00d4ff;
+}
+img{
+    width: 10%;
+}

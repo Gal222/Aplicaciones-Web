@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    background-color: #ffffff;
+}
+h1 {
+    text-align: center;
+    margin: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: cadetblue;
+    text-shadow: black 2px 2px 5px;
+    font-size: 5em;
+}
+
+div {
+    padding: 1%;
+}
+
+section {
+    background-color: aquamarine;
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+/*Practica 7, listas ordenadas 
+Alejandro avila garcia*/
+
+* {
+    box-sizing: border-box;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    width: 70%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+}
+
+.listaordenada {
+    background-color: aquamarine;
+}
+
+/*cada ol que ponemos es para entrar
+en la lista ordenada, es decir
+1 ol seria para las palabras enumerdas
+dos ol para las palabras con distinta tipografia
+3 ol para sub listas de las sublistas y asi sucesivamente*/
+
+.ListaDesordenada ul li {
+    list-style: none;
+    padding-left: 45px;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin: 10px 0; 
+}
+
+.cpu     { background-image: url("./cpu.jpg"); }
+#gpu     { background-image: url("./gpu.webp"); }
+#placa   { background-image: url("./placa.webp"); }
+#disco   { background-image: url("./disco.webp"); }
+#usb     { background-image: url("./usb.jpg"); }
+#video   { background-image: url("./video.jpg"); }                            
+#Ethernet{ background-image: url("./ethernet.jpg"); }
+#monitor { background-image: url("./monitor.webp"); }
+#raton   { background-image: url("./raton.jpg"); }
+#teclado { background-image: url("./teclado.jpg"); }
+
+
